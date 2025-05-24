@@ -20,7 +20,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize((0.5,), (0.5,))
 ])
-dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
+dataset = datasets.MNIST(root='../data', train=True, download=True, transform=transform)
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=4)
 
 class Generator(nn.Module):
