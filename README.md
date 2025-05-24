@@ -22,15 +22,11 @@ This repository contains a simple PyTorch implementation of a GAN (Generative Ad
 1. Clone the repository.
 2. Install dependencies:
 ```
-
 pip install torch torchvision accelerate matplotlib
-
 ```
 3. Run the training script:
 ```
-
 python main.py
-
 ```
 4. The generated images per epoch will be saved as `gan_generated_epochs_with_labels.png`.
 
